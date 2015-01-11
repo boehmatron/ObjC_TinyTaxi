@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blocks</key>
+	<array>
+		<dict>
+			<key>rect</key>
+			<string>{{420,200}, {100, 16}}</string>
+		</dict>
+		<dict>
+			<key>rect</key>
+			<string>{{160, 246}, {100, 16}}</string>
+		</dict>
+		<dict>
+			<key>number</key>
+			<integer>1</integer>
+			<key>rect</key>
+			<string>{{240, 140}, {100, 16}}</string>
+		</dict>
+	</array>
+	<key>taxiPosition</key>
+	<string>{30,175}</string>
+	<key>bedPosition</key>
+	<string>{270,15}</string>
+</dict>
+</plist>

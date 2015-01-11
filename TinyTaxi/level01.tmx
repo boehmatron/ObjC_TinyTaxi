@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tilemap" tilewidth="16" tileheight="16">
+  <image source="tilemap.png" width="240" height="160"/>
+ </tileset>
+ <layer name="collide" width="30" height="20">
+  <properties>
+   <property name="physics:enabled" value="true"/>
+   <property name="physics:friction" value="0.5"/>
+   <property name="tiles:bodyType" value="static"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCQDM5CpD90MeoLBaC8t3TPQ9mKzfzj7d9Re6piLz0+DLf8OtL20KFMHs3/x6SO3vhlq/h21lzx7BwIDAC+OAHk=
+  </data>
+ </layer>
+ <objectgroup name="gates" width="30" height="20">
+  <object name="gate01" gid="3" x="350" y="143">
+   <properties>
+    <property name="name" value="gate01"/>
+   </properties>
+  </object>
+  <object name="gateo02" gid="3" x="171" y="191">
+   <properties>
+    <property name="name" value="gate02"/>
+   </properties>
+  </object>
+  <object name="gate03" gid="3" x="310" y="222">
+   <properties>
+    <property name="name" value="gate03"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
